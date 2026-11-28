@@ -1,0 +1,18 @@
+"""GPIO, I2C, and timing constants for the cat deterrent hardware."""
+
+SERVO_PAN_CHANNEL = 0
+SERVO_TILT_CHANNEL = 1
+RELAY_PIN = 17
+
+PAN_MIN = 10
+PAN_MAX = 170
+TILT_MIN = 30
+TILT_MAX = 150
+
+PAN_STEP = 5
+TILT_STEP = 5
+
+PUMP_BURST_DURATION = 0.5  # seconds
+
+PCA9685_I2C_ADDRESS = 0x40
+SERVO_CHANNELS = 16

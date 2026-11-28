@@ -1,0 +1,4 @@
+adafruit-circuitpython-servokit
+gpiozero
+RPi.GPIO
+-r requirements-vision.txt
